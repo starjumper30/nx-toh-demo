@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@toh/data-access-heroes": ["libs/data-access-heroes/src/index.ts"],
+      "@toh/feature-hero-dashboard": [
+        "libs/feature-hero-dashboard/src/index.ts"
+      ],
+      "@toh/feature-hero-detail": ["libs/feature-hero-detail/src/index.ts"],
+      "@toh/feature-hero-list": ["libs/feature-hero-list/src/index.ts"],
+      "@toh/feature-hero-search": ["libs/feature-hero-search/src/index.ts"],
+      "@toh/feature-hero-shell": ["libs/feature-hero-shell/src/index.ts"],
+      "@toh/ui-messages": ["libs/ui-messages/src/index.ts"],
+      "@toh/util-logging": ["libs/util-logging/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
